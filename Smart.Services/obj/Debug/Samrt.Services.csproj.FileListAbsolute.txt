@@ -1,0 +1,11 @@
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\bin\Debug\Samrt.Services.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\bin\Debug\Samrt.Services.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\bin\Debug\Smart.BussinesEntities.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\bin\Debug\Smart.Logic.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\bin\Debug\Smart.DataAccess.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\bin\Debug\Smart.BussinesEntities.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\bin\Debug\Smart.Logic.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\bin\Debug\Smart.DataAccess.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\obj\Debug\Samrt.Services.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\obj\Debug\Samrt.Services.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\obj\Debug\Samrt.Services.pdb

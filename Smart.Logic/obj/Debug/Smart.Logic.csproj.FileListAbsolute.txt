@@ -1,0 +1,9 @@
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.Logic.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.Logic.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.BussinesEntities.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.DataAccess.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.BussinesEntities.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.DataAccess.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\obj\Debug\Smart.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\obj\Debug\Smart.Logic.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\obj\Debug\Smart.Logic.pdb

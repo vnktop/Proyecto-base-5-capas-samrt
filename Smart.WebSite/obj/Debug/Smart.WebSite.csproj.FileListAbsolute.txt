@@ -1,0 +1,5 @@
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.WebSite\bin\Smart.WebSite.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.WebSite\bin\Smart.WebSite.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.WebSite\obj\Debug\Smart.WebSite.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.WebSite\obj\Debug\Smart.WebSite.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.WebSite\obj\Debug\Smart.WebSite.csprojResolveAssemblyReference.cache
