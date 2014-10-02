@@ -50,10 +50,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Samrt.Services\Smart.Services.csproj">
+    <ProjectReference Include="..\Smart.Services\Smart.Services.csproj">
       <Project>{9f02c3a5-dde2-4da8-a310-d33770956d09}</Project>
       <Name>Smart.Services</Name>
     </ProjectReference>

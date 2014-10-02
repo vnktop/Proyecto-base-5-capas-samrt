@@ -12,3 +12,17 @@ C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Sma
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.TesHostInstall\bin\Debug\Smart.DataAccess.pdb
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.TesHostInstall\obj\x86\Debug\Smart.TesHostInstall.exe
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.TesHostInstall\obj\x86\Debug\Smart.TesHostInstall.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\bin\Debug\Smart.TesHostInstall.exe.config
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\bin\Debug\Smart.TesHostInstall.exe
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\bin\Debug\Smart.TesHostInstall.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\bin\Debug\Smart.Services.dll
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\bin\Debug\Smart.BussinesEntities.dll
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\bin\Debug\Smart.Logic.dll
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\bin\Debug\Smart.DataAccess.dll
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\bin\Debug\Smart.Services.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\bin\Debug\Smart.BussinesEntities.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\bin\Debug\Smart.Logic.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\bin\Debug\Smart.DataAccess.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\obj\x86\Debug\Smart.TesHostInstall.csprojResolveAssemblyReference.cache
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\obj\x86\Debug\Smart.TesHostInstall.exe
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TesHostInstall\obj\x86\Debug\Smart.TesHostInstall.pdb

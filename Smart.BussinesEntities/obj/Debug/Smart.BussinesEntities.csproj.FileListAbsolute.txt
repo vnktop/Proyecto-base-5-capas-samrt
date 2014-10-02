@@ -2,3 +2,7 @@ C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Sma
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.BussinesEntities\bin\Debug\Smart.BussinesEntities.pdb
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.BussinesEntities\obj\Debug\Smart.BussinesEntities.dll
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.BussinesEntities\obj\Debug\Smart.BussinesEntities.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.BussinesEntities\bin\Debug\Smart.BussinesEntities.dll
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.BussinesEntities\bin\Debug\Smart.BussinesEntities.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.BussinesEntities\obj\Debug\Smart.BussinesEntities.dll
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.BussinesEntities\obj\Debug\Smart.BussinesEntities.pdb

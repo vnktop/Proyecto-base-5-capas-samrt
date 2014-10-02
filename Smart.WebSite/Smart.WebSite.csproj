@@ -60,6 +60,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="Estilos\bootstrap.css" />
+    <Content Include="Estilos\bootswatch.min.css" />
+    <Content Include="Images\gridgum.png" />
+    <Content Include="Script\bootstrap.min.js" />
+    <Content Include="Script\bootswatch.js" />
     <Content Include="Service References\srTest\item.disco" />
     <Content Include="Service References\srTest\configuration91.svcinfo" />
     <Content Include="Service References\srTest\configuration.svcinfo" />
@@ -68,18 +73,6 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </Content>
     <Content Include="Web.config" />
-    <None Include="Service References\srTest\item.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\srTest\item1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\srTest\item2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <Content Include="Service References\srTest\Smart.WebSite.srTest.BE_Test.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -97,7 +90,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Service References\srTest\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\srTest\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\srTest\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <Content Include="Service References\srTest\ServiceDefinition.wsdl" />
+    <Content Include="Service References\srTest\Smart.WebSite.srTest.BE_Test.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
