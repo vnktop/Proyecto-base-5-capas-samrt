@@ -85,13 +85,15 @@
           </div>
           <div class="col-lg-4 col-md-5 col-sm-6">
             <div class="sponsor">
-                  <a href="http://gridgum.com/themes/category/bootstrap-themes/?utm_source=Bootswatch&utm_medium=250ad&utm_campaign=Bootswatch%20Campaign" target="_blank" onclick="_gaq.push(['_trackEvent', 'banner', 'click', 'gridgum']);"><img src="Images/gridgum.png" alt="Gridgum" onload="_gaq.push(['_trackEvent', 'banner', 'impression', 'gridgum']);"></a>
+                  <a href="http://gridgum.com/themes/category/bootstrap-themes/?utm_source=Bootswatch&utm_medium=250ad&utm_campaign=Bootswatch%20Campaign" target="_blank" onclick="_gaq.push(['_trackEvent', 'banner', 'click', 'gridgum']);"><img src="Images/gridgum.png" alt="Gridgum" onload="_gaq.push(['_trackEvent', 'banner', 'impression', 'gridgum']);" /></a>
             </div>
    
-          </div>
-            <div>
-                <asp:DropDownList ID="ddlTest" runat="server" class="dropdown-toggle" data-toggle="dropdown"></asp:DropDownList>
-            </div>
+          </div>           
+            
+           
+                
+          
+
         </div>
       </div>
 
@@ -159,7 +161,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#">Brand</a>
+                  <a class="navbar-brand" href="#">Brand -s</a>
                 </div>
                 <div class="navbar-collapse collapse navbar-inverse-collapse">
                   <ul class="nav navbar-nav">
@@ -180,12 +182,12 @@
                   </ul>
                   <form class="navbar-form navbar-left">
                     <input type="text" class="form-control col-lg-8" placeholder="Search">
-                  </form>
+                  </form>                    
                   <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                      <ul class="dropdown-menu">
+                    <li class="dropdown">                        
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>                        
+                      <ul class="dropdown-menu">                         
                         <li><a href="#">Action</a></li>
                         <li><a href="#">Another action</a></li>
                         <li><a href="#">Something else here</a></li>

@@ -59,10 +59,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap.html" />
     <Content Include="Default.aspx" />
+    <Content Include="Estilos\bootstrap-theme.min.css" />
     <Content Include="Estilos\bootstrap.css" />
+    <Content Include="Estilos\bootstrap.min.css" />
     <Content Include="Estilos\bootswatch.min.css" />
+    <Content Include="Images\bg_suburb.jpg" />
+    <Content Include="Images\flash-placeholder.jpg" />
     <Content Include="Images\gridgum.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\pergamino_dubai.png" />
+    <Content Include="Images\towers.png" />
+    <Content Include="MasterControles.aspx" />
     <Content Include="Script\bootstrap.min.js" />
     <Content Include="Script\bootswatch.js" />
     <Content Include="Service References\srTest\item.disco" />
@@ -72,7 +81,9 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </Content>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -81,6 +92,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterControles.aspx.cs">
+      <DependentUpon>MasterControles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterControles.aspx.designer.cs">
+      <DependentUpon>MasterControles.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service References\srTest\Reference.cs">
