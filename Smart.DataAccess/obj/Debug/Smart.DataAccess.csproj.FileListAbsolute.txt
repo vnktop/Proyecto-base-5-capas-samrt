@@ -6,6 +6,7 @@ C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Sma
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.DataAccess\bin\Debug\Smart.BussinesEntities.pdb
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.DataAccess\obj\Debug\Smart.DataAccess.dll
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.DataAccess\obj\Debug\Smart.DataAccess.pdb
+<<<<<<< HEAD
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\bin\Debug\Smart.DataAccess.dll.config
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\bin\Debug\Smart.DataAccess.dll
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\bin\Debug\Smart.DataAccess.pdb
@@ -14,3 +15,13 @@ C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAc
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\obj\Debug\Smart.DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\obj\Debug\Smart.DataAccess.dll
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\obj\Debug\Smart.DataAccess.pdb
+=======
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\bin\Debug\Smart.DataAccess.dll.config
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\bin\Debug\Smart.DataAccess.dll
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\bin\Debug\Smart.DataAccess.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\bin\Debug\Smart.BussinesEntities.dll
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\bin\Debug\Smart.BussinesEntities.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\obj\Debug\Smart.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\obj\Debug\Smart.DataAccess.dll
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.DataAccess\obj\Debug\Smart.DataAccess.pdb
+>>>>>>> IntegracionBootStrap
