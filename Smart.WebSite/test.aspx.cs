@@ -8,7 +8,7 @@ using Smart.WebSite.srTest;
 
 namespace Smart.WebSite
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class test : System.Web.UI.Page
     {
         ServiceContractClient rsTest = new ServiceContractClient();
         protected void Page_Load(object sender, EventArgs e)

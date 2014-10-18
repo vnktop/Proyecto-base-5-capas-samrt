@@ -15,3 +15,14 @@ C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Sma
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\bin\Debug\Smart.TestHost.exe.config
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\obj\x86\Debug\Smart.TestHost.exe
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\obj\x86\Debug\Smart.TestHost.pdb
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\bin\Debug\Smart.TestHost.exe
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\bin\Debug\Smart.TestHost.pdb
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\obj\x86\Debug\Smart.TestHost.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\bin\Debug\Smart.Services.dll
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\bin\Debug\Smart.BussinesEntities.dll
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\bin\Debug\Smart.Logic.dll
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\bin\Debug\Smart.DataAccess.dll
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\bin\Debug\Smart.Services.pdb
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\bin\Debug\Smart.BussinesEntities.pdb
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\bin\Debug\Smart.Logic.pdb
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.TestHost\bin\Debug\Smart.DataAccess.pdb

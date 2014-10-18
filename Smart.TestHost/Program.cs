@@ -21,9 +21,15 @@ namespace Smart.TestHost
                 {
                     host1.Open();
                     Console.WriteLine("Servicio Iniciado!");
-                    Console.WriteLine();
-                    Console.ReadKey();
-                    host1.Close();
+                    using (ServiceHost host2 = new ServiceHost(typeof(AdmonSitioService)))
+                    {
+                        host2.Open();
+                        Console.WriteLine("Servicio Admón. Sitio Iniciado!");
+                        Console.WriteLine();
+                        Console.ReadKey();
+                        host1.Close();                        
+                    }
+                    
                 }
             }
             catch (Exception ex)

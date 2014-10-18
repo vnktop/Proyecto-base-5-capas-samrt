@@ -9,3 +9,14 @@ C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Sam
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\obj\Debug\Smart.Services.csprojResolveAssemblyReference.cache
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\obj\Debug\Samrt.Services.dll
 C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Samrt.Services\obj\Debug\Samrt.Services.pdb
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Services\bin\Debug\Smart.Services.dll
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Services\bin\Debug\Smart.Services.pdb
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Services\bin\Debug\Smart.BussinesEntities.dll
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Services\bin\Debug\Smart.Logic.dll
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Services\bin\Debug\Smart.DataAccess.dll
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Services\bin\Debug\Smart.BussinesEntities.pdb
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Services\bin\Debug\Smart.Logic.pdb
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Services\bin\Debug\Smart.DataAccess.pdb
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Services\obj\Debug\Smart.Services.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Services\obj\Debug\Smart.Services.dll
+C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Services\obj\Debug\Smart.Services.pdb

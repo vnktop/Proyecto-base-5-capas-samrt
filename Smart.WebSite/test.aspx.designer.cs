@@ -10,7 +10,7 @@
 namespace Smart.WebSite {
     
     
-    public partial class Default {
+    public partial class test {
         
         /// <summary>
         /// Control form1.

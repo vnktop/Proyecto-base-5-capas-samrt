@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Ingreso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <header>
+    <Fecha>08/10/2014 09:46 p.m.</Fecha>
+    <Modulo>Ingreso Default</Modulo>
+    <Usuario>Victor Pineda</Usuario>
+  </header>
+  <tipoAccion>Acceso</tipoAccion>
+</Ingreso><?xml version="1.0" encoding="utf-8"?>
+<Ingreso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <header>
+    <Fecha>08/10/2014 09:46 p.m.</Fecha>
+    <Modulo>Ingreso Default</Modulo>
+    <Usuario>Victor Pineda</Usuario>
+  </header>
+  <tipoAccion>Acceso</tipoAccion>
+</Ingreso><?xml version="1.0" encoding="utf-8"?>
+<Ingreso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <header>
+    <Fecha>08/10/2014 10:08 p.m.</Fecha>
+    <Modulo>Ingreso Default</Modulo>
+    <Usuario>Victor Pineda</Usuario>
+  </header>
+  <tipoAccion>Acceso</tipoAccion>
+</Ingreso><?xml version="1.0" encoding="utf-8"?>
+<Ingreso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <header>
+    <Fecha>08/10/2014 10:09 p.m.</Fecha>
+    <Modulo>Ingreso Default</Modulo>
+    <Usuario>Victor Pineda</Usuario>
+  </header>
+  <tipoAccion>Acceso</tipoAccion>
+</Ingreso><?xml version="1.0" encoding="utf-8"?>
+<Ingreso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <header>
+    <Fecha>08/10/2014 10:10 p.m.</Fecha>
+    <Modulo>Ingreso Default</Modulo>
+    <Usuario>Victor Pineda</Usuario>
+  </header>
+  <tipoAccion>Acceso</tipoAccion>
+</Ingreso><?xml version="1.0" encoding="utf-8"?>
+<Ingreso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <header>
+    <Fecha>08/10/2014 10:14 p.m.</Fecha>
+    <Modulo>Ingreso Default</Modulo>
+    <Usuario>Victor Pineda</Usuario>
+  </header>
+  <tipoAccion>Acceso</tipoAccion>
+</Ingreso><?xml version="1.0" encoding="utf-8"?>
+<Ingreso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <header>
+    <Fecha>08/10/2014 10:15 p.m.</Fecha>
+    <Modulo>Ingreso Default</Modulo>
+    <Usuario>Victor Pineda</Usuario>
+  </header>
+  <tipoAccion>Acceso</tipoAccion>
+</Ingreso><?xml version="1.0" encoding="utf-8"?>
+<Accion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ingreso>
+    <header>
+      <Fecha>08/10/2014 10:15 p.m.</Fecha>
+      <Modulo>Crear Default</Modulo>
+      <Usuario>Victor Pineda</Usuario>
+    </header>
+    <tipoAccion>Crear</tipoAccion>
+  </ingreso>
+  <detalle>
+    <Metodo>Crear companias</Metodo>
+    <Parametros>
+      <string>Arg 1</string>
+      <string>Arg 2</string>
+      <string>Arg 2</string>
+    </Parametros>
+  </detalle>
+</Accion>

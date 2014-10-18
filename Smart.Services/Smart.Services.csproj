@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdmonSitio\Contract\IAdmonSitioContract.cs" />
+    <Compile Include="AdmonSitio\AdmonSitioService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestService\Contract\ServiceContract.cs" />
     <Compile Include="TestService\ServiceDefinition.cs" />
