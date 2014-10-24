@@ -1,18 +1,4 @@
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.WebSite\bin\Smart.WebSite.dll
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.WebSite\bin\Smart.WebSite.pdb
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.WebSite\obj\Debug\Smart.WebSite.dll
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.WebSite\obj\Debug\Smart.WebSite.pdb
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.WebSite\obj\Debug\Smart.WebSite.csprojResolveAssemblyReference.cache
-<<<<<<< HEAD
-=======
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.WebSite\bin\Smart.WebSite.dll
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.WebSite\bin\Smart.WebSite.pdb
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.WebSite\obj\Debug\Smart.WebSite.dll
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.WebSite\obj\Debug\Smart.WebSite.pdb
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.WebSite\obj\Debug\Smart.WebSite.csprojResolveAssemblyReference.cache
->>>>>>> IntegracionBootStrap
-C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.WebSite\bin\Smart.WebSite.dll
-C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.WebSite\bin\Smart.WebSite.pdb
-C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.WebSite\obj\Debug\Smart.WebSite.csprojResolveAssemblyReference.cache
-C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.WebSite\obj\Debug\Smart.WebSite.dll
-C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.WebSite\obj\Debug\Smart.WebSite.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Proyecto-base-5-capas-samrt\Smart.WebSite\bin\Smart.WebSite.dll
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Proyecto-base-5-capas-samrt\Smart.WebSite\bin\Smart.WebSite.pdb
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Proyecto-base-5-capas-samrt\Smart.WebSite\obj\Debug\Smart.WebSite.dll
+C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Proyecto-base-5-capas-samrt\Smart.WebSite\obj\Debug\Smart.WebSite.pdb

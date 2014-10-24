@@ -59,7 +59,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Content Include="Admon_Sitio\CrearCompania.aspx" />
     <Content Include="Admon_Sitio\CrearPerfil.aspx" />
     <None Include="Service References\srAdmonSitio\CompaniasService.wsdl" />
@@ -71,9 +70,7 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
     <Content Include="test.aspx" />
-=======
     <Content Include="bootstrap.html" />
-    <Content Include="Default.aspx" />
     <Content Include="Estilos\bootstrap-theme.min.css" />
     <Content Include="Estilos\bootstrap.css" />
     <Content Include="Estilos\bootstrap.min.css" />
@@ -87,7 +84,6 @@
     <Content Include="MasterControles.aspx" />
     <Content Include="Script\bootstrap.min.js" />
     <Content Include="Script\bootswatch.js" />
->>>>>>> IntegracionBootStrap
     <Content Include="Service References\srTest\item.disco" />
     <Content Include="Service References\srTest\configuration91.svcinfo" />
     <Content Include="Service References\srTest\configuration.svcinfo" />
@@ -95,7 +91,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </Content>
-<<<<<<< HEAD
     <Content Include="Web.config" />
     <None Include="Service References\srAdmonSitio\item.xsd">
       <SubType>Designer</SubType>
@@ -112,10 +107,8 @@
     <None Include="Service References\srTest\item1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\srTest\item2.xsd">
-=======
+    <None Include="Service References\srTest\item2.xsd" />
     <Content Include="Web.config">
->>>>>>> IntegracionBootStrap
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>

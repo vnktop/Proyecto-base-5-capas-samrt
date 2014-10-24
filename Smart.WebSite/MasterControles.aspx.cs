@@ -16,7 +16,7 @@ namespace Smart.WebSite
         {
             if (!IsPostBack)
             {
-                testLoad();
+               // testLoad();
             }
         }
 
