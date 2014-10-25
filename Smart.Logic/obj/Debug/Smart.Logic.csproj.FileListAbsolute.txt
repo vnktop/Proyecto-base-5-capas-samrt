@@ -1,13 +1,3 @@
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.Logic.dll
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.Logic.pdb
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.BussinesEntities.dll
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.DataAccess.dll
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.BussinesEntities.pdb
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\bin\Debug\Smart.DataAccess.pdb
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\obj\Debug\Smart.Logic.csprojResolveAssemblyReference.cache
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\obj\Debug\Smart.Logic.dll
-C:\Users\Administrador\Documents\Visual Studio 2012\Projects\moduloSeguridad\Smart.Logic\obj\Debug\Smart.Logic.pdb
-<<<<<<< HEAD
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\bin\Debug\Smart.Logic.dll
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\bin\Debug\Smart.Logic.pdb
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\bin\Debug\Smart.BussinesEntities.dll
@@ -17,14 +7,3 @@ C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\obj\Debug\Smart.Logic.csprojResolveAssemblyReference.cache
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\obj\Debug\Smart.Logic.dll
 C:\Users\Administrador\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\obj\Debug\Smart.Logic.pdb
-=======
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\bin\Debug\Smart.Logic.dll
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\bin\Debug\Smart.Logic.pdb
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\bin\Debug\Smart.BussinesEntities.dll
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\bin\Debug\Smart.DataAccess.dll
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\bin\Debug\Smart.BussinesEntities.pdb
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\bin\Debug\Smart.DataAccess.pdb
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\obj\Debug\Smart.Logic.csprojResolveAssemblyReference.cache
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\obj\Debug\Smart.Logic.dll
-C:\Users\Victor.Pineda\Documents\GitHub\Proyecto-base-5-capas-samrt\Smart.Logic\obj\Debug\Smart.Logic.pdb
->>>>>>> IntegracionBootStrap

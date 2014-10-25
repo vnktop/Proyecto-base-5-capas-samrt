@@ -38,6 +38,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.1213, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dropbox\Proyectos\PLD-McNaught\plantilla\BIM.Website\AjaxToolKit_4\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
@@ -59,9 +63,42 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+    <Content Include="Login.aspx" />
+    <Content Include="Admon_Sitio\admonSMART_SMenu.aspx" />
     <Content Include="Admon_Sitio\CrearCompania.aspx" />
     <Content Include="Admon_Sitio\CrearPerfil.aspx" />
+    <Content Include="Estilos\agency.css" />
+    <Content Include="Estilos\font-awesome.min.css" />
+    <Content Include="Images\financial-planning-audit-reporting.jpg" />
+    <Content Include="Images\fortune_wallpaper.jpg" />
+    <Content Include="Images\header-bg.jpg" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\4.jpg" />
+    <Content Include="Images\creative-market.jpg" />
+    <Content Include="Images\designmodo.jpg" />
+    <Content Include="Images\dreams-preview.png" />
+    <Content Include="Images\dreams.png" />
+    <Content Include="Images\envato.jpg" />
+    <Content Include="Images\escape-preview.png" />
+    <Content Include="Images\escape.png" />
+    <Content Include="Images\golden-preview.png" />
+    <Content Include="Images\golden.png" />
+    <Content Include="Images\map-image.png" />
+    <Content Include="Images\roundicons-free.png" />
+    <Content Include="Images\roundicons.png" />
+    <Content Include="Images\startup-framework-preview.png" />
+    <Content Include="Images\startup-framework.png" />
+    <Content Include="Images\Team\1.jpg" />
+    <Content Include="Images\Team\2.jpg" />
+    <Content Include="Images\Team\3.jpg" />
+    <Content Include="Images\themeforest.jpg" />
+    <Content Include="Images\treehouse-preview.png" />
+    <Content Include="Images\treehouse.png" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="Service References\srAdmonSitio\CompaniasService.wsdl" />
     <None Include="Service References\srAdmonSitio\item.disco" />
     <None Include="Service References\srAdmonSitio\configuration91.svcinfo" />
@@ -70,10 +107,15 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <Content Include="test.aspx" />
-=======
-    <Content Include="bootstrap.html" />
-    <Content Include="Default.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\logo_smart.jpg" />
+    <Content Include="Script\agency.js" />
+    <Content Include="Script\AjaxControlToolkit.dll" />
+    <Content Include="Script\cbpAnimatedHeader.js" />
+    <Content Include="Script\classie.js" />
+    <Content Include="Script\contact_me.js" />
+    <Content Include="Script\jqBootstrapValidation.js" />
+    <Content Include="Script\jquery-1.11.0.js" />
     <Content Include="Estilos\bootstrap-theme.min.css" />
     <Content Include="Estilos\bootstrap.css" />
     <Content Include="Estilos\bootstrap.min.css" />
@@ -87,7 +129,6 @@
     <Content Include="MasterControles.aspx" />
     <Content Include="Script\bootstrap.min.js" />
     <Content Include="Script\bootswatch.js" />
->>>>>>> IntegracionBootStrap
     <Content Include="Service References\srTest\item.disco" />
     <Content Include="Service References\srTest\configuration91.svcinfo" />
     <Content Include="Service References\srTest\configuration.svcinfo" />
@@ -95,8 +136,9 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </Content>
-<<<<<<< HEAD
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Service References\srAdmonSitio\item.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -113,13 +155,27 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\srTest\item2.xsd">
-=======
-    <Content Include="Web.config">
->>>>>>> IntegracionBootStrap
       <SubType>Designer</SubType>
+    </None>
+    <Content Include="Service References\srTest\Smart.WebSite.srTest.BE_Test.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admon_Sitio\admonSMART_SMenu.aspx.cs">
+      <DependentUpon>admonSMART_SMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admon_Sitio\admonSMART_SMenu.aspx.designer.cs">
+      <DependentUpon>admonSMART_SMenu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admon_Sitio\CrearCompania.aspx.cs">
       <DependentUpon>CrearCompania.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -136,17 +192,15 @@
     </Compile>
     <Compile Include="Helper\NombrePropiedades.cs" />
     <Compile Include="log\log.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Service References\srAdmonSitio\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
-    <Compile Include="test.aspx.cs">
-      <DependentUpon>test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="test.aspx.designer.cs">
-      <DependentUpon>test.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterControles.aspx.cs">
       <DependentUpon>MasterControles.aspx</DependentUpon>
@@ -189,6 +243,12 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\srAdmonSitio\" />
     <WCFMetadataStorage Include="Service References\srTest\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
