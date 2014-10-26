@@ -99,6 +99,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="masterPage.Master" />
     <None Include="Service References\srAdmonSitio\CompaniasService.wsdl" />
     <None Include="Service References\srAdmonSitio\item.disco" />
     <None Include="Service References\srAdmonSitio\configuration91.svcinfo" />
@@ -192,6 +193,13 @@
     </Compile>
     <Compile Include="Helper\NombrePropiedades.cs" />
     <Compile Include="log\log.cs" />
+    <Compile Include="masterPage.Master.cs">
+      <DependentUpon>masterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterPage.Master.designer.cs">
+      <DependentUpon>masterPage.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
