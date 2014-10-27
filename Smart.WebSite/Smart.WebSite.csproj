@@ -112,6 +112,7 @@
     <Content Include="Images\logo_smart.jpg" />
     <Content Include="Script\agency.js" />
     <Content Include="Script\AjaxControlToolkit.dll" />
+    <Content Include="Script\bootstrapValidator.js" />
     <Content Include="Script\cbpAnimatedHeader.js" />
     <Content Include="Script\classie.js" />
     <Content Include="Script\contact_me.js" />
