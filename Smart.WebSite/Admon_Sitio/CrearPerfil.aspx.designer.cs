@@ -22,15 +22,6 @@ namespace Smart.WebSite.Admon_Sitio {
         protected global::System.Web.UI.WebControls.TextBox tbFuncion;
         
         /// <summary>
-        /// Control rfvtbFuncion.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvtbFuncion;
-        
-        /// <summary>
         /// Control tbDescripcion.
         /// </summary>
         /// <remarks>
@@ -40,22 +31,13 @@ namespace Smart.WebSite.Admon_Sitio {
         protected global::System.Web.UI.WebControls.TextBox tbDescripcion;
         
         /// <summary>
-        /// Control validationSummary.
+        /// Control Button1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl validationSummary;
-        
-        /// <summary>
-        /// Control vsPerfil.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary vsPerfil;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
         /// Control lblMensajes.

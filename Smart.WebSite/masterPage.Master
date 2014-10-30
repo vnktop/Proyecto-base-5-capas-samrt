@@ -81,10 +81,12 @@
       </div>
     </footer>
 </form>   
-    <%--http://forums.asp.net/t/2008566.aspx?jquery+menu+not+run+in+asp+net+with+master+page--%>
+        
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="<%= ResolveUrl("~/Script/bootstrap.min.js") %>"></script>
-    <script type="text/javascript" src="<%= ResolveUrl("~/Script/bootswatch.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveUrl("~/Script/bootswatch.js") %>"></script>      
+
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"> </script>
 
 </body>    
 </html>
