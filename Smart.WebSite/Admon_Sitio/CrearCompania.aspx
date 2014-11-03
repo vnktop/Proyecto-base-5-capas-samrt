@@ -1,123 +1,168 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CrearCompania.aspx.cs" Inherits="Smart.WebSite.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CrearCompania.aspx.cs" Inherits="Smart.WebSite.Default" MasterPageFile="~/masterPage.Master" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Ch" runat="server" ContentPlaceHolderID="head">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#form1').bootstrapValidator({
+                container: '#messages',
+                feedbackIcons: {
+                    valid: 'glyphicon glyphicon-check',
+                    invalid: 'glyphicon glyphicon-remove',
+                    validating: 'glyphicon glyphicon-refresh'
+                },
+                fields: {
+                    //http://bootstrapvalidator.com/examples/integrating-asp-net/
+                    <%=tbRazonSocial.UniqueID%>: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Se requiere Razón social'
+                            }
+                        }
+                    },                   
+                    <%=tbRFC.UniqueID%>: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Se requiere RFC'
+                            },
+                            regexp: {
+                                regexp:/^[a-zA-Z]{4}\d{6}[a-zA-Z]{2}\d{1}$/,
+                                message: 'Formato RFC no valido: Verifique Homoclave persona fisica[4 carácteres], persona moral[3 carácteres]; formato fecha: YYMMDD; Homoclave [3 carácteres]'
+                            }    
+                        }
+                    },
+                    <%=tbNombreBD.UniqueID%>: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Se requiere nombre BD'
+                            }
+                        }
+                    },     
+                    <%=tbCorreoContacto.UniqueID%>: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Se requiere Correo'
+                            },
+                            emailAddress: {
+                                message: 'Formato correo no valido'
+                            }
+                        }
+                    },
+                    <%=tbNombreContacto.UniqueID%>: {
+                        validators: {
+                            notEmpty: {
+                                message: 'Se requiere nombre contacto'
+                            }
+                        }
+                    },     
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: 'The email address is required and cannot be empty'
+                            },
+                            emailAddress: {
+                                message: 'The email address is not valid'
+                            }
+                        }
+                    },
+                    title: {
+                        validators: {
+                            notEmpty: {
+                                message: 'The title is required and cannot be empty'
+                            },
+                            stringLength: {
+                                max: 100,
+                                message: 'The title must be less than 100 characters long'
+                            }
+                        }
+                    },
+                    content: {
+                        validators: {
+                            notEmpty: {
+                                message: 'The content is required and cannot be empty'
+                            },
+                            stringLength: {
+                                max: 500,
+                                message: 'The content must be less than 500 characters long'
+                            }
+                        }
+                    }
+                }
+            });
+        });
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>    
-    <form id="form1" runat="server">
-        <asp:ScriptManager ID="smTmp" runat="server"></asp:ScriptManager>
-    <div>
-        <table>
-            <tr>
-                <td>    
-                    <asp:Label ID="lblRazonSocial" runat="server" Text="Razón social"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="tbRazonSocial" runat="server" MaxLength="100"></asp:TextBox>
-                </td>
-                <td>
-                    <asp:RequiredFieldValidator ID="rfvtbRazonSocial" runat="server" ControlToValidate="tbRazonSocial" Text="*" ErrorMessage="Razón social" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
-                </td>
-            </tr>
-            <tr>
-                <td>    
-                    <asp:Label ID="lblDescripcion" runat="server" Text="Descripción"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="tbDescripcion" runat="server" MaxLength="150"></asp:TextBox>
-                </td>
-                <td>
-                    
-                </td>
-            </tr>
-            <tr>
-                <td>    
-                    <asp:Label ID="lblRFC" runat="server" Text="RFC"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="tbRFC" runat="server" MaxLength="15"></asp:TextBox>
-                </td>
-                <td>
-                    <asp:RequiredFieldValidator ID="rfvRFC" runat="server" ControlToValidate="tbRFC" Text="*" ErrorMessage="RFC" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>
-                    <asp:RegularExpressionValidator ID="revtbRFC"  ValidationExpression="^[a-zA-Z]{4}\d{6}[a-zA-Z]{2}\d{1}$"
-                            runat="server" ControlToValidate="tbRFC" Text="*" ErrorMessage="Formato RFC Incorrecto. Verifique Homoclave fisica[4 carácteres], moral[3 carácteres]; formato fecha: YYMMDD; Homoclave [3 carácteres]" SetFocusOnError="true"
-                            ></asp:RegularExpressionValidator>    
-                </td>
-            </tr>
-            <tr>
-                <td>    
-                    <asp:Label ID="lblNombreBD" runat="server" Text="Nombre base de datos"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="tbNombreBD" runat="server" MaxLength="15"></asp:TextBox>
-                </td>
-                <td>
-                    <asp:RequiredFieldValidator ID="rfvtbNombreBD" runat="server" ControlToValidate="tbNombreBD" Text="*" ErrorMessage="Nombre base de datos" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>                   
-                </td>
-            </tr>
-            <tr>
-                <td>    
-                    <asp:Label ID="lblCorreoContacto" runat="server" Text="Correo contacto"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="tbCorreoContacto" runat="server" MaxLength="30"></asp:TextBox>
-                </td>
-                <td>
-                    <asp:RequiredFieldValidator ID="rfvtbCorreoContacto" runat="server" ControlToValidate="tbCorreoContacto" Text="*" ErrorMessage="Correo contacto" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>                   
-                    <asp:RegularExpressionValidator ID="revtbCorreoContacto" 
-                        runat="server" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
-                        ControlToValidate="tbCorreoContacto" Text="*" ErrorMessage="Formato Correo electrónico Incorrecto " SetFocusOnError="true"></asp:RegularExpressionValidator>
-                </td>
-            </tr>
-            <tr>
-                <td>    
-                    <asp:Label ID="lblNombreContacto" runat="server" Text="Nombre de contacto"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="tbNombreContacto" runat="server" MaxLength="50"></asp:TextBox>
-                </td>
-                <td>
-                    <asp:RequiredFieldValidator ID="rfvtbNombreContacto" runat="server" ControlToValidate="tbNombreContacto" Text="*" ErrorMessage="Nombre de contacto" Display="Dynamic" SetFocusOnError="true"></asp:RequiredFieldValidator>                   
-                </td>
-            </tr>
+    </script>
+</asp:Content>
 
-            <tr>
-                <td colspan="3" style="text-align: right;">
-                    <asp:UpdatePanel ID="upCrear" runat="server">
-                        <ContentTemplate>
-                            <asp:Button ID="btnCrear" runat="server" Text="Crear" OnClick="btnCrear_Click" />
-                        </ContentTemplate>
-                        <Triggers>
-                            <asp:AsyncPostBackTrigger ControlID="btnCrear" EventName="click" />                            
-                        </Triggers>
-                    </asp:UpdatePanel>                    
-                </td>
-            </tr>           
-        </table>
+<asp:Content ID="Cb" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
+    <br />
+    <asp:ScriptManager ID="smTmp" runat="server"></asp:ScriptManager>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-offset-2">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="panel-title">Crear compañía</div>
+                    </div>
+                    <div style="padding-top: 30px" class="panel-body">
+                        <div style="display: none" id="login-alert" class="col-md-8"></div>
+                        <div class="form-group">
+                            <div class="col-md-10 input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <asp:TextBox ID="tbRazonSocial" runat="server" MaxLength="100" CssClass="form-control" placeholder="<Razón social 100 caracteres>"></asp:TextBox>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                <asp:TextBox ID="tbDescripcion" runat="server" MaxLength="150" CssClass="form-control" Rows="2" TextMode="MultiLine" placeholder="<Descripción 150 caracteres>" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-4 input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <asp:TextBox ID="tbRFC" runat="server" MaxLength="15" CssClass="form-control" placeholder="<RFC 15 caracteres>"></asp:TextBox>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-4 input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                <asp:TextBox ID="tbNombreBD" runat="server" MaxLength="15" CssClass="form-control" placeholder="<Nombre BD 15 caracteres>" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-6 input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                <asp:TextBox ID="tbCorreoContacto" runat="server" MaxLength="30" CssClass="form-control" placeholder="<Correo 30 caracteres>" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-8 input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <asp:TextBox ID="tbNombreContacto" runat="server" MaxLength="50" CssClass="form-control" placeholder="<Nombre contacto 50 caracteres>" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <!-- Button -->
+                            <div class="col-md-10 input-group">
+                                <asp:UpdatePanel ID="upCrear" runat="server">
+                                    <ContentTemplate>
+                                        <asp:Button ID="btnCrear" Text="Crear" runat="server" CssClass="btn-success btn" OnClick="btnCrear_Click" />
+                                    </ContentTemplate>
+                                    <Triggers>
+                                        <asp:AsyncPostBackTrigger ControlID="btnCrear" EventName="click" />
+                                    </Triggers>
+                                </asp:UpdatePanel>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <div id="messages"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-        <div id="validationSummary" runat="server">
-            <asp:ValidationSummary ID="vsCompania" runat="server" DisplayMode="BulletList" HeaderText="Favor de ingresar los siguientes valores" ShowSummary="true" ShowValidationErrors="true" />
-        </div>
-        <div>
-            <asp:UpdatePanel ID="upMensajes" runat="server">
-                <ContentTemplate>
-                    <asp:Label ID="lblMensajes" runat="server"></asp:Label>
-                </ContentTemplate>
-            </asp:UpdatePanel>            
-        </div>
-        <%--TEST--%>
-        <%--<div>
-            <asp:Button ID="btnCrears" runat="server" Text="Crear" OnClick="btnCrears_Click" CausesValidation="false" />
-            <asp:Button ID="btnLeer" runat="server" Text="Leer" CausesValidation="false" OnClick="btnLeer_Click" />
-            <asp:Button ID="btnActualizar" runat="server" Text="Actualizar" CausesValidation="false" OnClick="btnActualizar_Click" />
-            <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" CausesValidation="false" OnClick="btnEliminar_Click" />
-            <asp:Button ID="btnError" runat="server" Text="Error" CausesValidation="false" />
-            
-        </div>--%>
-    </form>
-</body>
-</html>
+
+</asp:Content>
